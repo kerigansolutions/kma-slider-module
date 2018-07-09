@@ -59,7 +59,7 @@ class KMASliderModule
                 'name'        => (isset($slide->post_title) ? $slide->post_title : null),
                 'slug'        => (isset($slide->post_name) ? $slide->post_name : null),
                 'photo'       => get_field('image',$slide->ID),
-                'link'        => get_field('link',$slide->ID),
+                'href'        => get_field('link',$slide->ID),
                 'target'      => get_field('link_target',$slide->ID),
                 'slider'      => get_field('slider',$slide->ID)
             ]);
