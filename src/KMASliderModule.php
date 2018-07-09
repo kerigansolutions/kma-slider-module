@@ -1,6 +1,6 @@
 <?php
 
-//namespace KeriganSolutions\KMASlider;
+namespace KeriganSolutions\KMASlider;
 
 class KMASliderModule
 {
