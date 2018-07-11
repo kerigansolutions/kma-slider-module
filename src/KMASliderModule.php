@@ -20,7 +20,7 @@ class KMASliderModule
         }
 
         // Create REST API Routes
-        add_action( 'init', [$this, 'addRoutes'] );
+        add_action( 'rest_api_init', [$this, 'addRoutes'] );
     }
 
     /* 
