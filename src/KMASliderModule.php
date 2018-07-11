@@ -17,7 +17,6 @@ class KMASliderModule
         // Don't die if ACF isn't installed
         if ( function_exists( 'acf_add_local_field_group' ) ) {
             add_action( 'acf/init', [$this, 'registerFields'] );
-            add_filter('acf/settings/show_admin', '__return_false');
         }
 
         // Create REST API Routes
